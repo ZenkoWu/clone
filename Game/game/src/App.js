@@ -1,9 +1,10 @@
 
+import ScientificMatchGame from './ScientificMatchGame';
 
 function App() {
   return (
-    <div className="game">
-     
+    <div className="app">
+      <ScientificMatchGame />
     </div>
   );
 }
