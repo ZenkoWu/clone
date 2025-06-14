@@ -1,12 +1,7 @@
-
-import ScientificMatchGame from './ScientificMatchGame';
-
+import { MatchBoard } from "./components/MatchBoard/MatchBoard";
+import "./App.css";
 function App() {
-  return (
-    <div className="app">
-      <ScientificMatchGame />
-    </div>
-  );
+  return <MatchBoard />;
 }
 
 export default App;
